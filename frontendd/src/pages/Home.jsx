@@ -14,7 +14,7 @@ export const Home = () => {
   const [deleteData, setDeleteData] = useState({});
 
   function loadBook(){
-    axios.get("http://localhost:5555/books").then((res) => {
+    axios.get("https://mern-deploy-backend-733w.onrender.com/books").then((res) => {
         setBooks(res.data);
   }).catch((err) => {
         console.log(err)
