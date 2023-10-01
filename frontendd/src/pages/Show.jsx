@@ -16,7 +16,7 @@ const {id}  = useParams()
 
 useEffect(()=>{
             axios
-            .get(`http://localhost:5555/books/${id}`)
+            .get(`https://mern-deploy-backend-733w.onrender.com/books/${id}`)
             .then((res)=>{
                         setBooks(res.data)
                         console.log(book);
