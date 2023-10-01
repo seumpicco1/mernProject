@@ -1,0 +1,26 @@
+{
+  "name": "mind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-sever":"cd backend && npm i mongoose  && npm i cors && npm i mongoose-unique-validator ",
+    "start-server":"cd backend && npm run dev "  ,
+    "install-clinet" :"cd frontendd && npm install && npm i date-fns && npm i mongoose",
+    "build-client" : "cd frontendd && npm run build",
+    "start-client": "cd frontendd && npm run dev"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seumpicco1/MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seumpicco1/MERN/issues"
+  },
+  "homepage": "https://github.com/seumpicco1/MERN#readme"
+}
