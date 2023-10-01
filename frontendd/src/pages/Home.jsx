@@ -44,7 +44,7 @@ useEffect(() => {
 }, []);
 
       function deleteBook(){
-axios.delete(`http://localhost:5555/books/${deleteData._id}`)
+axios.delete(`https://mern-deploy-backend-733w.onrender.com/books/${deleteData._id}`)
 .then((res)=>{
         loadBook()
         ,setOpen(false)
