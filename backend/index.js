@@ -13,7 +13,7 @@ app.use(express.json())
 // allow cross origin
 // app.use(cors())
 const corsOptions = {
-    origin: 'https://mern-deploy-frontend-733w.onrender.com',
+    origin: 'https://mern-deploy-frontend-rkx2.onrender.com',
     methods: ['GET', 'POST', 'DELETE', 'PUT'],
     allowedHeaders: ['Content-Type'],
 }
