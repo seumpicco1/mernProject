@@ -28,7 +28,7 @@ export const Edit = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5555/books/${id}`)
+      .get(`https://mern-deploy-backend-733w.onrender.com/books/${id}`)
       .then((res) => {
         setTitle(res.data.title);
         console.log(res.data.title);
