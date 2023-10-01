@@ -53,7 +53,7 @@ export const Edit = () => {
       publishYear,
     };
     axios
-      .put(`http://localhost:5555/books/${id}`,data)
+      .put(`https://mern-deploy-backend-733w.onrender.com/books/${id}`,data)
       .then((res) => {
         navigate("/");
       })
